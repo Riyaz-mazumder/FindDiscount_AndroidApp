@@ -28,6 +28,8 @@ public class Login extends AppCompatActivity {
 
          btn = findViewById(R.id.signUp);
 
+         goToSinUp = findViewById(R.id.dontHaveAccount);
+
          goToSinUp.setOnClickListener(new View.OnClickListener() {
              @Override
              public void onClick(View v) {
